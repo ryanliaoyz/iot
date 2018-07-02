@@ -1,0 +1,1483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="a624451e-7414-4b6a-8e29-e01ffd0bf900" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/home.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/grid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/index.0.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/jqueryui.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/manage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/menu-dropdown-1.0.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/menu-dropdown-2.0.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/menu-dropdown-animations.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/menu-dropdown.0.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/menu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/site.0.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/iot-common.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/springboot.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/springboot.log.1" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/springboot.log.2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/action/CommonController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/action/IotController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/action/IotDeviceController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/action/IotUserController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/action/IotUserServiceRelationController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/action/UserServiceController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/dao/IotDeviceDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/dao/IotUserDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/dao/IotUserServiceRelationDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/dao/UserServiceDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/model/IotDevice.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/model/IotUser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/model/IotUserServiceRelation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/model/UserService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/service/IotDeviceService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/service/IotService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/service/IotServiceService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/service/IotUserService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/service/IotUserServiceRelationService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/service/UserServiceService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/service/impl/IotDeviceServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/service/impl/IotServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/service/impl/IotUserServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/service/impl/IotUserServiceRelationServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/service/impl/UserServiceServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/java/org/totem/iot/utils/CommonsUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/iot/xml/IotDeviceMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/iot/xml/IotUserMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/iot/xml/IotUserServiceRelationMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/iot/xml/UserServiceMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/header.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotdevice/edit.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotdevice/mMember.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotdevice/manage.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotdevice/view.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotservice/edit.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotservice/mMember.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotservice/manage.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotservice/view.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotuser/edit.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotuser/mMember.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotuser/manage.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotuser/view.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotuserservicerelation/edit.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotuserservicerelation/mMember.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotuserservicerelation/manage.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotuserservicerelation/view.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/userservice/edit.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/userservice/mMember.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/userservice/manage.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/userservice/view.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/iot.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/iotdevice/edit.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/iotdevice/grid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/iotdevice/manage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/iotdevice/validate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/iotservice/edit.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/iotservice/grid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/iotservice/manage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/iotservice/validate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/iotuser/edit.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/iotuser/grid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/iotuser/manage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/iotuser/validate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/iotuserservicerelation/edit.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/iotuserservicerelation/grid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/iotuserservicerelation/manage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/iotuserservicerelation/validate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/userservice/edit.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/userservice/grid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/userservice/manage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../iot-common/src/main/resources/org/totem/res/assets/js/iot/userservice/validate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/iot-common/iot-common.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/iot.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/run.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/totem/iot/MainApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/totem/iot/config/WebMvcConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/totem/iot/utils/IotInterceptor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/WEB-INF/ftl/activation.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/WEB-INF/ftl/common/activation.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/WEB-INF/ftl/common/globle.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/WEB-INF/ftl/resetpassword.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/WEB-INF/ftl/signupsuc.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/WEB-INF/ftl/userlogin.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/WEB-INF/ftl/usersignup.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/css/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/css/util.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/less/animated.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/less/bordered-pulled.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/less/core.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/less/fixed-width.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/less/font-awesome.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/less/icons.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/less/larger.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/less/list.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/less/mixins.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/less/path.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/less/rotated-flipped.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/less/screen-reader.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/less/stacked.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/less/variables.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/scss/_animated.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/scss/_core.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/scss/_icons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/scss/_larger.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/scss/_list.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/scss/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/scss/_path.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/scss/_stacked.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/scss/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/font-awesome-4.7.0/scss/font-awesome.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/iconic/css/material-design-iconic-font.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/iconic/css/material-design-iconic-font.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/poppins/Poppins-Black.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/poppins/Poppins-BlackItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/poppins/Poppins-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/poppins/Poppins-BoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/poppins/Poppins-ExtraBold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/poppins/Poppins-ExtraBoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/poppins/Poppins-ExtraLight.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/poppins/Poppins-ExtraLightItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/poppins/Poppins-Italic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/poppins/Poppins-Light.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/poppins/Poppins-LightItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/poppins/Poppins-Medium.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/poppins/Poppins-MediumItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/poppins/Poppins-Regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/poppins/Poppins-SemiBold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/poppins/Poppins-SemiBoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/poppins/Poppins-Thin.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/fonts/poppins/Poppins-ThinItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/images/icons/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/js/main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/animate/animate.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/animsition/css/animsition.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/animsition/css/animsition.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/animsition/js/animsition.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/animsition/js/animsition.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/bootstrap/css/bootstrap-grid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/bootstrap/css/bootstrap-grid.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/bootstrap/css/bootstrap-grid.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/bootstrap/css/bootstrap-grid.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/bootstrap/css/bootstrap-reboot.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/bootstrap/css/bootstrap-reboot.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/bootstrap/css/bootstrap-reboot.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/bootstrap/css/bootstrap-reboot.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/bootstrap/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/bootstrap/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/bootstrap/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/bootstrap/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/bootstrap/js/popper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/bootstrap/js/popper.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/bootstrap/js/tooltip.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/countdowntime/countdowntime.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/css-hamburgers/hamburgers.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/css-hamburgers/hamburgers.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/daterangepicker/daterangepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/daterangepicker/daterangepicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/daterangepicker/moment.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/daterangepicker/moment.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/jquery/jquery-3.2.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/perfect-scrollbar/perfect-scrollbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/perfect-scrollbar/perfect-scrollbar.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/select2/select2.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/select2/select2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/select2/select2.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/login/vendor/select2/select2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/signup/README.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/signup/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/signup/index.pug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/signup/js/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/signup/less/style.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/totem/res/assets/signup/license.txt" />
+      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/IotController.java" afterPath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/IotController.java" />
+      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotservice" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotservice/edit.ftl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotservice/mMember.ftl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotservice/manage.ftl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotservice/view.ftl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/assets/js/iot/iotservice" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/assets/js/iot/iotservice/edit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/assets/js/iot/iotservice/grid.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/assets/js/iot/iotservice/manage.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/assets/js/iot/iotservice/validate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/userlogin.ftl" afterPath="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/userlogin.ftl" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/iot-common/target/" />
+    <ignored path="$PROJECT_DIR$/../iot-common/target/" />
+    <ignored path="$PROJECT_DIR$/../../iot-interface/iot-common/target/" />
+    <ignored path="$PROJECT_DIR$/../../iot-interface/iot-server/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="home.ftl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/home.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="296" column="0" lean-forward="true" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.0.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/index.0.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/menu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="286" column="18" lean-forward="false" selection-start-line="286" selection-start-column="18" selection-end-line="286" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.0.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/site.0.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="269" column="6" lean-forward="true" selection-start-line="269" selection-start-column="6" selection-end-line="269" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mMember.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/userservice/mMember.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IotUserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/service/IotUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/userservice/manage.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.ftl" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/totem/components/totem.app-bootstrap.ui/1.0-SNAPSHOT/totem.app-bootstrap.ui-1.0-20180525.110924-46.jar!/org/totem/res/WEB-INF/ftl/common/header.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="macro.ftl" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/totem/components/totem.app-bootstrap.ui/1.0-SNAPSHOT/totem.app-bootstrap.ui-1.0-20180525.110924-46.jar!/org/totem/res/WEB-INF/ftl/common/macro.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jquery</find>
+      <find>woff</find>
+      <find>f13</find>
+      <find>ws</find>
+      <find>site.0.</find>
+      <find>z-index</find>
+      <find>pointer</find>
+      <find>point</find>
+      <find>f2</find>
+      <find>f&quot;</find>
+      <find>.f</find>
+      <find>55px</find>
+      <find>f</find>
+      <find>55</find>
+      <find>#b</find>
+      <find>devi</find>
+      <find>setupMenu</find>
+      <find>getMe</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>control-label&quot;</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home</dir>
+      <dir>$PROJECT_DIR$/../../iot-interface/iot-server/src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/userlogin.ftl" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/home.html" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/menu.js" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/menu-dropdown-animations.min.js" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/menu-dropdown.0.js" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/menu-dropdown-1.0.js" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/menu-dropdown-2.0.js" />
+        <option value="$USER_HOME$/Desktop/untitled folder/Sparkle Preview.htm" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/jqueryui.js" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/site.0.css" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/IotController.java" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/common/globle.ftl" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/style.css" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/index.0.js" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/home.ftl" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$USER_HOME$/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="2560" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="totem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="totem" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="totem" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="totem" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="totem" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="userservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="ftl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="ftl" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.totem.components:totem.app-bootstrap.ui:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.totem.components:totem.app-bootstrap.ui:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="totem.app-bootstrap.ui-1.0-20180525.110924-46.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.totem.components:totem.app-bootstrap.ui:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="totem.app-bootstrap.ui-1.0-20180525.110924-46.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.totem.components:totem.app-bootstrap.ui:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="totem.app-bootstrap.ui-1.0-20180525.110924-46.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="ftl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.totem.components:totem.app-bootstrap.ui:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="totem.app-bootstrap.ui-1.0-20180525.110924-46.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="ftl" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="svn" revision="6884">$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/service/IotUserService.java</PATH>
+          <PATH vcs="svn" revision="6884">$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/service/impl/IotUserServiceImpl.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="iot" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.totem.iot.MainApplication" />
+      <module name="iot" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../../iot-interface/iot-common" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../../iot-interface/iot-common" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../../iot-interface/iot-server" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../../iot-interface/iot-server" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../../iot-interface/iot-common" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../../iot-interface/iot-common" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../../iot-interface/iot-server" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../../iot-interface/iot-server" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a624451e-7414-4b6a-8e29-e01ffd0bf900" name="Default" comment="" />
+      <created>1530180872306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530180872306</updated>
+      <workItem from="1530180876549" duration="964000" />
+      <workItem from="1530181919638" duration="20905000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="21869000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="2560" height="1080" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39920557" sideWeight="0.5015886" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15210484" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39920557" sideWeight="0.49841145" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.49841145" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.49841145" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25178713" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>MD5Utils.string2MD5(request.getParameter(&quot;userPassword&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getParameter(&quot;userPassword&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/iot.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/IotUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3162">
+          <caret line="53" column="13" lean-forward="false" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/UserServiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="55" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/IotDeviceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="53" column="13" lean-forward="false" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/common/activation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.16.RELEASE/spring-web-4.3.16.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/login/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotuser/view.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1265">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/menu-dropdown-animations.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5430">
+          <caret line="362" column="45" lean-forward="false" selection-start-line="362" selection-start-column="45" selection-end-line="362" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/menu-dropdown.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="88" column="87" lean-forward="false" selection-start-line="88" selection-start-column="87" selection-end-line="88" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/menu-dropdown-1.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="88" column="89" lean-forward="false" selection-start-line="88" selection-start-column="89" selection-end-line="88" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/menu-dropdown-2.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="88" column="89" lean-forward="false" selection-start-line="88" selection-start-column="89" selection-end-line="88" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/untitled folder/Sparkle Preview.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2435">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/userlogin.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="56" column="53" lean-forward="false" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/usersignup.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="59" column="85" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/jqueryui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="697" column="13" lean-forward="false" selection-start-line="697" selection-start-column="13" selection-end-line="697" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <marker date="1530256424000" expanded="true" signature="20454:20525" ph="..." />
+            <marker date="1530256424000" expanded="true" signature="20539:20563" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/IotController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="238" column="65" lean-forward="false" selection-start-line="238" selection-start-column="65" selection-end-line="238" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/manage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3051">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1529475475000" expanded="true" signature="782:788" ph="&amp;nbsp;" />
+            <marker date="1529475475000" expanded="true" signature="788:794" ph="&amp;nbsp;" />
+            <marker date="1529475475000" expanded="true" signature="794:800" ph="&amp;nbsp;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/common/globle.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotservice/manage.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/grid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/totem/components/totem.app-bootstrap.ui/1.0-SNAPSHOT/totem.app-bootstrap.ui-1.0-20180525.110924-46.jar!/org/totem/res/WEB-INF/ftl/common/header.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/service/IotUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/userservice/mMember.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/userservice/manage.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/totem/components/totem.app-bootstrap.ui/1.0-SNAPSHOT/totem.app-bootstrap.ui-1.0-20180525.110924-46.jar!/org/totem/res/WEB-INF/ftl/common/macro.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/site.0.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="269" column="6" lean-forward="true" selection-start-line="269" selection-start-column="6" selection-end-line="269" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="286" column="18" lean-forward="false" selection-start-line="286" selection-start-column="18" selection-end-line="286" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/index.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/home.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="296" column="0" lean-forward="true" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>iot</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: annotations:annotations:2.0.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
