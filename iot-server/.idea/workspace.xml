@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="a624451e-7414-4b6a-8e29-e01ffd0bf900" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/IotController.java" afterPath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/IotController.java" />
-      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/home.ftl" afterPath="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/userservicecontrol.ftl" />
+      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/UserServiceFrontController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/utils/CommonsUtil.java" afterPath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/utils/CommonsUtil.java" />
+      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iotdevicecontrol.ftl" afterPath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iotdevicecontrol.ftl" />
+      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/userservicecontrol.ftl" afterPath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/userservicecontrol.ftl" />
+      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/userserviceedit.ftl" afterPath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/userserviceedit.ftl" />
+      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/assets/js/iot/iotdevice/manage.js" afterPath="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/assets/js/iot/iotdevice/manage.js" />
+      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/java/org/totem/iot/utils/IotInterceptor.java" afterPath="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/java/org/totem/iot/utils/IotInterceptor.java" />
+      <change beforePath="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/userservicecontrol.ftl" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,21 +35,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IotController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/IotController.java">
+      <file leaf-file-name="iotdeviceedit.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/iotdeviceedit.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3645">
-              <caret line="274" column="46" lean-forward="false" selection-start-line="274" selection-start-column="46" selection-end-line="274" selection-end-column="46" />
+            <state relative-caret-position="543">
+              <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deviceedit.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/deviceedit.ftl">
+      <file leaf-file-name="userserviceedit.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/userserviceedit.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1725">
-              <caret line="115" column="7" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="19" />
+            <state relative-caret-position="246">
+              <caret line="50" column="107" lean-forward="true" selection-start-line="50" selection-start-column="107" selection-end-line="50" selection-end-column="119" />
               <folding />
             </state>
           </provider>
@@ -51,33 +58,21 @@
       <file leaf-file-name="IotDeviceFrontController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/IotDeviceFrontController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="359" column="53" lean-forward="false" selection-start-line="359" selection-start-column="53" selection-end-line="359" selection-end-column="53" />
+            <state relative-caret-position="160">
+              <caret line="103" column="60" lean-forward="true" selection-start-line="103" selection-start-column="60" selection-end-line="103" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4861#4872#0" expanded="true" />
-                <element signature="e#6325#6336#0" expanded="true" />
-                <element signature="e#7280#7291#0" expanded="true" />
-                <element signature="e#8089#8100#0" expanded="true" />
-                <element signature="e#11147#11155#0" expanded="true" />
-                <element signature="e#11205#11213#0" expanded="true" />
-                <element signature="e#11484#11505#0" expanded="true" />
-                <element signature="e#11613#11629#0" expanded="true" />
-                <element signature="e#12498#12513#0" expanded="true" />
-                <element signature="e#15195#15210#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceFrontController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/UserServiceFrontController.java">
+      <file leaf-file-name="WebMvcConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/java/org/totem/iot/config/WebMvcConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="433" column="120" lean-forward="false" selection-start-line="433" selection-start-column="120" selection-end-line="433" selection-end-column="120" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,67 +80,61 @@
       <file leaf-file-name="iotdevicecontrol.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iotdevicecontrol.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="74" column="14" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="17" />
+            <state relative-caret-position="362">
+              <caret line="76" column="9" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="78" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/test.ftl">
+      <file leaf-file-name="IotInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/java/org/totem/iot/utils/IotInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1014" selection-end-column="9" />
+            <state relative-caret-position="392">
+              <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iotusercontrol.ftl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iotusercontrol.ftl">
+      <file leaf-file-name="userservicecontrol.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/userservicecontrol.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+            <state relative-caret-position="422">
+              <caret line="78" column="67" lean-forward="false" selection-start-line="78" selection-start-column="67" selection-end-line="78" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonsUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/utils/CommonsUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="55" column="31" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="55" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceFrontController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/UserServiceFrontController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="176" column="22" lean-forward="true" selection-start-line="176" selection-start-column="22" selection-end-line="176" selection-end-column="22" />
               <folding>
-                <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#13404#13420#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/assets/js/iot/iotuser/edit.js">
+      <file leaf-file-name="test.ftl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/common/test.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-              <folding>
-                <marker date="1531110994000" expanded="true" signature="2827:2851" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotuser/edit.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1618">
-              <caret line="41" column="10" lean-forward="false" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="iotusercontrol.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/target/classes/org/totem/res/WEB-INF/ftl/iotusercontrol.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="65" column="30" lean-forward="false" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+            <state relative-caret-position="312">
+              <caret line="180" column="54" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1019" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -163,11 +152,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ws</find>
-      <find>site.0.</find>
-      <find>z-index</find>
-      <find>pointer</find>
-      <find>point</find>
       <find>f2</find>
       <find>f&quot;</find>
       <find>.f</find>
@@ -193,6 +177,11 @@
       <find>query</find>
       <find>valid</find>
       <find>激活</find>
+      <find>编辑</find>
+      <find>Device</find>
+      <find>addM</find>
+      <find>edit</find>
+      <find>device</find>
     </findStrings>
     <replaceStrings>
       <replace>control-label&quot;</replace>
@@ -201,8 +190,8 @@
       <dir>$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home</dir>
       <dir>$PROJECT_DIR$/../../iot-interface/iot-server/src</dir>
       <dir>$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/assets/js/iot/iotdevice</dir>
-      <dir>$PROJECT_DIR$/../../iot-interface/iot-common</dir>
       <dir>$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources</dir>
+      <dir>$PROJECT_DIR$/../../iot-interface/iot-common</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -234,22 +223,26 @@
         <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/common/macro.ftl" />
         <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/common/macrocus.ftl" />
         <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/devicecontrol.ftl" />
-        <option value="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iotdevicecontrol.ftl" />
-        <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/common/test.ftl" />
         <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/deviceedit.ftl" />
-        <option value="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/assets/js/iot/iotdevice/manage.js" />
         <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/serviceedit.ftl" />
         <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/home.ftl" />
-        <option value="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/UserServiceFrontController.java" />
         <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/java/org/totem/iot/utils/RequireUserLogin.java" />
-        <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/java/org/totem/iot/utils/IotInterceptor.java" />
         <option value="$PROJECT_DIR$/../../iot-interface/iot-common/target/classes/org/totem/res/WEB-INF/ftl/iotusercontrol.ftl" />
         <option value="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/test.ftl" />
         <option value="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/IotServiceFrontController.java" />
-        <option value="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/IotController.java" />
-        <option value="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/IotDeviceFrontController.java" />
         <option value="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/assets/js/iot/iotuser/edit.js" />
         <option value="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iotusercontrol.ftl" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/assets/js/iot/iotdevice/manage.js" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/utils/CommonsUtil.java" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/IotDeviceFrontController.java" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iotdevicecontrol.ftl" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/userservicecontrol.ftl" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/java/org/totem/iot/utils/IotInterceptor.java" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/IotController.java" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/userservicecontrol.ftl" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/userserviceedit.ftl" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/UserServiceFrontController.java" />
+        <option value="$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/common/test.ftl" />
       </list>
     </option>
   </component>
@@ -300,7 +293,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -342,15 +335,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="iot" type="462c0819:PsiDirectoryNode" />
               <item name="action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iot-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="iot" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="iot" type="b2602c69:ProjectViewProjectNode" />
@@ -806,8 +790,8 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -894,6 +878,119 @@
         </RestClientRequest>
       </list>
     </option>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="svn" revision="6993">$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/assets/js/iot/userservice/grid.js</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="svn" revision="6993">$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/userservicecontrol.ftl</PATH>
+          <PATH vcs="svn" revision="6993">$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/userserviceedit.ftl</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        <PATH vcs="svn" revision="6993">$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/UserServiceFrontController.java</PATH>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1052,7 +1149,8 @@
       <workItem from="1530181919638" duration="24370000" />
       <workItem from="1530673950283" duration="123000" />
       <workItem from="1530674108486" duration="27862000" />
-      <workItem from="1531107810346" duration="2452000" />
+      <workItem from="1531107810346" duration="3115000" />
+      <workItem from="1531190641171" duration="13118000" />
     </task>
     <task id="LOCAL-00001" summary="initial Service Menu">
       <created>1530517691029</created>
@@ -1068,19 +1166,26 @@
       <option name="project" value="LOCAL" />
       <updated>1530876096030</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- organized menu&#10;- detailed displayed menu&#10;- updated templates">
+      <created>1531111505029</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531111505029</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55771000" />
+    <option name="totallyTimeSpent" value="69552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39920557" sideWeight="0.5015886" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39841428" sideWeight="0.24861" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39841428" sideWeight="0.25099286" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39841428" sideWeight="0.25099286" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15210484" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1089,22 +1194,23 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39841428" sideWeight="0.75139" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39841428" sideWeight="0.74900717" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.49841145" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.49761716" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.49841145" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2573471" sideWeight="0.8731466" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2593328" sideWeight="0.8731466" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2553614" sideWeight="0.12685338" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1113,7 +1219,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.49682286" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hybris Console [Experimental]" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1159,7 +1264,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1178,41 +1283,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/userservice/mMember.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/userservice/manage.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/site.0.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4290">
-          <caret line="286" column="18" lean-forward="false" selection-start-line="286" selection-start-column="18" selection-end-line="286" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/assets/home/index.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/iot-common.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1269,24 +1339,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/common/macrocus.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/assets/js/iot/iotdevice/edit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-116">
           <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/common/test.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="98" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1335,31 +1391,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/assets/js/iot/iotdevice/manage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="87" column="25" lean-forward="true" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/serviceedit.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="963">
-          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/resetpassword.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/userservicecontrol.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="154" column="39" lean-forward="true" selection-start-line="154" selection-start-column="39" selection-end-line="154" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1381,6 +1416,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="239" column="7" lean-forward="true" selection-start-line="239" selection-start-column="7" selection-end-line="239" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1390,14 +1426,8 @@
           <caret line="42" column="22" lean-forward="false" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#13404#13420#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/CommonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="72" lean-forward="false" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -1427,28 +1457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
           <caret line="84" column="24" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="86" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/java/org/totem/iot/config/WebMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/utils/RequireUserLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/java/org/totem/iot/utils/IotInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="38" column="75" lean-forward="false" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -1482,14 +1490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/deviceedit.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="115" column="7" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/test.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1498,37 +1498,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/IotController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3645">
-          <caret line="274" column="46" lean-forward="false" selection-start-line="274" selection-start-column="46" selection-end-line="274" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/IotDeviceFrontController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="359" column="53" lean-forward="false" selection-start-line="359" selection-start-column="53" selection-end-line="359" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4861#4872#0" expanded="true" />
-            <element signature="e#6325#6336#0" expanded="true" />
-            <element signature="e#7280#7291#0" expanded="true" />
-            <element signature="e#8089#8100#0" expanded="true" />
-            <element signature="e#11147#11155#0" expanded="true" />
-            <element signature="e#11205#11213#0" expanded="true" />
-            <element signature="e#11484#11505#0" expanded="true" />
-            <element signature="e#11613#11629#0" expanded="true" />
-            <element signature="e#12498#12513#0" expanded="true" />
-            <element signature="e#15195#15210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iot/iotuser/edit.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1618">
+        <state relative-caret-position="615">
           <caret line="41" column="10" lean-forward="false" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
           <folding />
         </state>
@@ -1536,44 +1508,180 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/assets/js/iot/iotuser/edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        <state relative-caret-position="510">
+          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
           <folding>
             <marker date="1531110994000" expanded="true" signature="2827:2851" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/UserServiceFrontController.java">
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iotusercontrol.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="433" column="120" lean-forward="false" selection-start-line="433" selection-start-column="120" selection-end-line="433" selection-end-column="120" />
+        <state relative-caret-position="425">
+          <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/assets/js/iot/iotdevice/manage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="238" column="4" lean-forward="false" selection-start-line="238" selection-start-column="4" selection-end-line="238" selection-end-column="26" />
+          <folding>
+            <marker date="1531196227000" expanded="true" signature="811:817" ph="&amp;nbsp;" />
+            <marker date="1531196227000" expanded="true" signature="817:823" ph="&amp;nbsp;" />
+            <marker date="1531196227000" expanded="true" signature="823:829" ph="&amp;nbsp;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/common/macrocus.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/CommonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="72" lean-forward="false" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/totem/components/totem.common/3.1.0-SNAPSHOT/totem.common-3.1.0-20180628.055900-88.jar!/org/totem/common/utils/CommonsUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3370">
+          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/userservicecontrol.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="79" column="103" lean-forward="true" selection-start-line="79" selection-start-column="103" selection-end-line="79" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/serviceedit.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="69" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/target/classes/org/totem/res/WEB-INF/ftl/userserviceedit.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="60" column="57" lean-forward="true" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/utils/RequireUserLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/IotController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="289" column="12" lean-forward="false" selection-start-line="289" selection-start-column="10" selection-end-line="289" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/utils/CommonsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="55" column="31" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="55" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/java/org/totem/iot/config/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iotdevicecontrol.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="76" column="9" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="78" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/userservicecontrol.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="78" column="67" lean-forward="false" selection-start-line="78" selection-start-column="67" selection-end-line="78" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/java/org/totem/iot/utils/IotInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/userserviceedit.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="50" column="107" lean-forward="true" selection-start-line="50" selection-start-column="107" selection-end-line="50" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/iotdeviceedit.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/IotDeviceFrontController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="103" column="60" lean-forward="true" selection-start-line="103" selection-start-column="60" selection-end-line="103" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iotdevicecontrol.ftl">
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/java/org/totem/iot/action/UserServiceFrontController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="74" column="14" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="94">
+          <caret line="176" column="22" lean-forward="true" selection-start-line="176" selection-start-column="22" selection-end-line="176" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#13404#13420#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-common/src/main/resources/org/totem/res/WEB-INF/ftl/iotusercontrol.ftl">
+    <entry file="file://$PROJECT_DIR$/../../iot-interface/iot-server/src/main/resources/org/totem/res/WEB-INF/ftl/common/test.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="312">
+          <caret line="180" column="54" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1019" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
