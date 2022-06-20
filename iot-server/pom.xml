@@ -11,7 +11,7 @@
         <iot-common.version>1.0.0-SNAPSHOT</iot-common.version>
         <totem.autoconfiguration.version>1.0-SNAPSHOT</totem.autoconfiguration.version>
         <bootstrap-ui.version>1.0-SNAPSHOT</bootstrap-ui.version>
-        <mysql.version>6.0.5</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
     </properties>
     <parent>
         <groupId>org.totem</groupId>
